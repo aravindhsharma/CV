@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>Register</title>
+  </head>
+  <body>
+    <form
+      action="mailto:aravindhsharma2@gmail.com"
+      method="POST"
+      enctype="text/plain"
+    >
+      <label for="">First Name:</label>
+      <input type="text" name="Firstname" required /><br />
+
+      Last Name:
+      <input type="text" name="Lastname" required /><br />
+
+      Email:
+      <input type="email" name="Email" required /><br />
+
+      Password:
+      <input type="password" minlength="4" name="Password" required /><br />
+
+      Birthday:
+      <input type="date" name="Birthday" required /><br /><br />
+
+      Gender:
+      <input type="radio" name="gender" value="Male" />Male
+      <input type="radio" name="gender" value="Female" />Female<br /><br />
+
+      Nationality:
+      <input type="checkbox" name="nationality" value="Indian" />Indian
+      <input type="checkbox" name="nationality" value="NRI" />NRI<br /><br />
+
+      ID Proof:
+      <select multiple name="Identity" id="">
+        <option value="Passport">Passport</option>
+        <option value="Aadhar">Aadhar Card</option>
+        <option value="VoterID">Voter ID</option>
+        <option value="Pancard">Pan Card</option></select
+      ><br /><br />
+
+      Comment:
+      <textarea name="Comment" id="" cols="30" rows="10"></textarea>
+
+      <input type="submit" value="register" />
+      <input type="reset" /><br />
+    </form>
+  </body>
+</html>
